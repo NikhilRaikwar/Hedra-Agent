@@ -1,0 +1,23 @@
+{
+  "name": "hedra-agent",
+  "version": "1.0.0",
+  "description": "![npm version](https://badgen.net/npm/v/hedera-agent-kit) ![license](https://badgen.net/github/license/hedera-dev/hedera-agent-kit) ![build](https://badgen.net/github/checks/hedera-dev/hedera-agent-kit)",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@hashgraph/sdk": "^2.70.0",
+    "@langchain/core": "^0.3.67",
+    "@langchain/openai": "^0.6.4",
+    "dotenv": "^17.2.1",
+    "hedera-agent-kit": "^3.0.7",
+    "langchain": "^0.3.30"
+  }
+}

@@ -1,12 +1,15 @@
 {
   "name": "hedera-agent-toolkit-examples-langchain",
   "version": "1.0.0",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "langchain:structured-chat-agent": "ts-node structured-chat-agent.ts",
     "langchain:tool-calling-agent": "ts-node tool-calling-agent.ts",
     "langchain:return-bytes-tool-calling-agent": "ts-node return-bytes-tool-calling-agent.ts",
-    "langchain:plugin-tool-calling-agent": "ts-node plugin-tool-calling-agent.ts"
+    "langchain:plugin-tool-calling-agent": "ts-node plugin-tool-calling-agent.ts",
+    "start": "node server.js",
+    "dev": "nodemon server.js"
   },
   "dependencies": {
     "@hashgraph/sdk": "^2.68.0",
